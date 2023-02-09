@@ -14,12 +14,12 @@
             <ComboBox x:Name="SerialPortNameCB" RenderTransformOrigin="1.941,1.85" 
                 ItemsSource="{Binding}" SelectedValuePath="Id" DisplayMemberPath="Name" Margin="161,11,0,0" Width="332" DropDownClosed="SerialPortNameCB_DropDownClosed"/>
             <TextBlock HorizontalAlignment="Left" Margin="9,23,0,0" TextWrapping="Wrap" Text="Serial Port" VerticalAlignment="Top" RenderTransformOrigin="0.74,-1.436"/>
-            <TextBox x:Name="TxText" HorizontalAlignment="Left" Margin="10,0,0,1768" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Height="153" Width="239" TextChanged="TxText_TextChanged"/>
-            <TextBox x:Name="RxText" HorizontalAlignment="Left" Margin="254,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="153" Width="239" RenderTransformOrigin="0.661,-2.556" IsReadOnly="True"/>
+            <TextBox x:Name="TxText" HorizontalAlignment="Left" Margin="10,0,0,1638" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Height="283" Width="239" TextChanged="TxText_TextChanged"/>
+            <TextBox x:Name="RxText" HorizontalAlignment="Left" Margin="254,87,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="283" Width="484" RenderTransformOrigin="0.661,-2.556" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
             <TextBlock HorizontalAlignment="Left" Margin="10,62,0,0" TextWrapping="Wrap" Text="Write Text" VerticalAlignment="Top" RenderTransformOrigin="1.742,-16.2"/>
             <TextBlock HorizontalAlignment="Left" Margin="254,62,0,0" TextWrapping="Wrap" Text="Read Text" VerticalAlignment="Top"/>
             <Button x:Name="RefreshSerialPortProperty" Content="Refresh" HorizontalAlignment="Left" Margin="81,11,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-            <TextBox x:Name="status" HorizontalAlignment="Left" Margin="10,245,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="483"/>
+            <TextBox x:Name="status" HorizontalAlignment="Left" Margin="8,375,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="483"/>
             <Button Content="Clear" HorizontalAlignment="Left" Margin="195,55,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
             <Button Content="Clear" HorizontalAlignment="Left" Margin="439,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.554,-0.812" Click="Button_Click_2"/>
         </Grid>
